@@ -1,4 +1,9 @@
 let nombreUsuario = prompt ("Ingresa tu nombre")
+function inrgesarNombre(nombre1, nombre2){
+    let nombreUsuario = prompt ("Ingresa tu nombre")
+    alert("Bienvenido " + nombreUsuario + " gracias por visitarnos")
+    console.log(nombre1 + "nombre de ingreso al sitio")
+}
 let repetir = true
 if (nombreUsuario == "") {
     do {
@@ -17,4 +22,5 @@ for(let i = 1; i <= 3; i++ ){
         break
     }
     alert("Tu turno de atención es el N°"+i+"Nombre: "+nombreUsuario)
+    console.log(nombre2 + "nombre utilizado para solicitud de turno")
 }
